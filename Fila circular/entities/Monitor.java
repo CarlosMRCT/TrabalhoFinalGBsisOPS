@@ -48,7 +48,6 @@ public class Monitor {
         qntMaxima += capacity;
     }
 
-
     public void criarProcessos(ArrayList<String> cientistas) {
         Random gerador = new Random();
         for (int i = 0; i < qntMaxima; i++) {

@@ -38,7 +38,8 @@ public class Processos implements Runnable {
         while (true) {
             for (int i = 0; i < monitor.getQntMaxima(); i++) {
                 if (monitor.getValores()[i] == 0) continue;
-                System.out.println("Cientista: " + cientistas.get(i) + " com tempo de vida de: " + monitor.getValores()[i] + " milis");
+                System.out.println("_______________________________");
+                System.out.println("Cientista: " + cientistas.get(i) + " começou o processo! E o tempo de vida restante é: " + monitor.getValores()[i] + " milis");
                 try {
                     if (monitor.getValores()[i] > monitor.getQuantum()) {
                         Thread.sleep(monitor.getQuantum());
@@ -49,11 +50,20 @@ public class Processos implements Runnable {
                         Thread.sleep(monitor.getValores()[i]);
                         monitor.getValores()[i] = 0;
                         System.out.println("Processo do cientista: " + cientistas.get(i) + " removido!");
+
                     }
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
+
                 if (monitor.getValores()[i] == 0) {
+                    System.out.println("_______________________________");
+                    System.out.println("Restam os seguintes processos:");
+                    for (int h = 0; h < monitor.getQntMaxima(); h++) {
+                        if (monitor.getValores()[h] != 0) {
+                            System.out.println("Cientista:" + cientistas.get(h) + " tempo restante: " + monitor.getValores()[h]);
+                        }
+                    }
                     System.out.println("Gostaria de adicionar um novo processo? S/N");
                     String decision = tc.next();
                     if (decision.equalsIgnoreCase("S")) {
