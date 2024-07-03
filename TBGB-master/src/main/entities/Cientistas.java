@@ -109,7 +109,12 @@ public class Cientistas implements Runnable {
                     if (decision.equalsIgnoreCase("y")) {
                         System.out.println("Digite a quantidade de novos processos criados:");
                         int sup = tc.nextInt();
-                        criarProcesso(sup);
+                       do {
+                    	   System.out.println("Digite a quantidade de novos processos criados:");
+                           sup = tc.nextInt();
+                        }while (sup <= 0);
+                       criarProcesso(sup);
+                    }
                     }
 
                 }
