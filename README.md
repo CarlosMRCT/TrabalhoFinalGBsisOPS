@@ -1,16 +1,33 @@
-Trabalho Final de Sistemas Operacionais
-Este repositório contém o projeto final da disciplina de Sistemas Operacionais, implementado em Java utilizando o IntelliJ IDEA. O foco do projeto é a implementação de uma fila circular, uma estrutura de dados eficiente para o gerenciamento de processos ou tarefas em um sistema.
+<body>
 
-Estrutura do Projeto
-application/: Contém a lógica principal do sistema, incluindo a inicialização e execução da fila circular.
-entities/: Define as entidades envolvidas na implementação da fila circular.
-fila circular/: Pasta principal com o código-fonte da implementação da fila circular.
-tbgb-master/: Contém os testes do sistema para validar a funcionalidade da fila circular.
-Tecnologias Utilizadas
-Linguagem: Java
-IDE: IntelliJ IDEA
-Como Executar
-Clone o repositório.
-Abra o projeto no IntelliJ IDEA.
-Compile e execute o projeto a partir da classe principal no package application.
-Execute os testes localizados na pasta tbgb-master.
+<h1>Trabalho Final de Sistemas Operacionais</h1>
+
+<p>Este repositório contém o projeto final da disciplina de Sistemas Operacionais, implementado em Java utilizando o IntelliJ IDEA. O foco do projeto é a implementação de uma <strong>fila circular</strong>, uma estrutura de dados eficiente para o gerenciamento de processos ou tarefas em um sistema.</p>
+
+<h2>Estrutura do Projeto</h2>
+<ul>
+    <li><strong>application</strong>: Contém a lógica principal do sistema, incluindo a inicialização e execução da fila circular.</li>
+    <li><strong>entities</strong>: Define as entidades envolvidas na implementação da fila circular.</li>
+    <li><strong>fila circular</strong>: Pasta principal com o código-fonte da implementação da fila circular.</li>
+    <li><strong>tbgb-master</strong>: Contém os testes do sistema para validar a funcionalidade da fila circular.</li>
+</ul>
+
+<h2>Tecnologias Utilizadas</h2>
+<ul>
+    <li><strong>Linguagem</strong>: Java</li>
+    <li><strong>IDE</strong>: IntelliJ IDEA</li>
+</ul>
+
+<h2>Como Executar</h2>
+<ol>
+    <li>Clone o repositório.</li>
+    <li>Abra o projeto no IntelliJ IDEA.</li>
+    <li>Compile e execute o projeto a partir da classe principal no package <code>application</code>.</li>
+    <li>Execute os testes localizados na pasta <code>tbgb-master</code> caso queira verificar os testes efetuados.</li>
+</ol>
+
+<h2>Contribuição</h2>
+<p>Sinta-se à vontade para contribuir com melhorias ou correções. Para isso, faça um fork do repositório, crie uma branch com as alterações e abra um pull request.</p>
+
+</body>
+</html>
