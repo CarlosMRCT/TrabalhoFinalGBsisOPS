@@ -2,7 +2,7 @@
 
 <h1>Trabalho Final de Sistemas Operacionais</h1>
 
-<p>Este repositório contém o projeto final da disciplina de Sistemas Operacionais, implementado em Java utilizando o IntelliJ IDEA. O foco do projeto é a implementação de uma <strong>fila circular</strong>, uma estrutura de dados eficiente para o gerenciamento de processos ou tarefas em um sistema.</p>
+<p>Este repositório contém o projeto final da disciplina de Sistemas Operacionais, implementado em Java utilizando o IntelliJ IDEA. O foco do projeto é a simulação de uma <strong>fila circular</strong>, uma estrutura de dados que executa processos períodicamente até a conclusão de cada um desses processos.</p>
 
 <h2>Estrutura do Projeto</h2>
 <ul>
