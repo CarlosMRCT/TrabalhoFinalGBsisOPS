@@ -6,10 +6,11 @@
 
 <h2>Estrutura do Projeto</h2>
 <ul>
-    <li><strong>application</strong>: Contém a lógica principal do sistema, incluindo a inicialização e execução da fila circular.</li>
-    <li><strong>entities</strong>: Define as entidades envolvidas na implementação da fila circular.</li>
     <li><strong>fila circular</strong>: Diretório com o código-fonte da implementação da fila circular.</li>
     <li><strong>trabalhoalternativo</strong>: Diretório que contém o programa funcional junto dos testes do sistema para validar a funcionalidade da fila circular.</li>
+    <h2>Dentro do algoritmo encontra-se os seguintes pacotes: </h2>
+    <li><strong>application</strong>: Contém a lógica principal do sistema, incluindo a inicialização e execução da fila circular.</li>
+    <li><strong>entities</strong>: Define as entidades envolvidas na implementação da fila circular.</li>
 </ul>
 
 <h2>Tecnologias Utilizadas</h2>
@@ -31,3 +32,6 @@
 
 </body>
 </html>
+
+
+Formate para mim
