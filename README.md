@@ -8,8 +8,8 @@
 <ul>
     <li><strong>application</strong>: Contém a lógica principal do sistema, incluindo a inicialização e execução da fila circular.</li>
     <li><strong>entities</strong>: Define as entidades envolvidas na implementação da fila circular.</li>
-    <li><strong>fila circular</strong>: Pasta principal com o código-fonte da implementação da fila circular.</li>
-    <li><strong>trabalhoalternativo</strong>: Contém o programa funcional junto dos testes do sistema para validar a funcionalidade da fila circular.</li>
+    <li><strong>fila circular</strong>: Diretório com o código-fonte da implementação da fila circular.</li>
+    <li><strong>trabalhoalternativo</strong>: Diretório que contém o programa funcional junto dos testes do sistema para validar a funcionalidade da fila circular.</li>
 </ul>
 
 <h2>Tecnologias Utilizadas</h2>
